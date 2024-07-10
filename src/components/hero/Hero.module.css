@@ -1,0 +1,32 @@
+.container {
+  background: #141414;
+  padding: 10px 40px 40px 40px;
+}
+
+.miniContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 240px;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title {
+  font-size: 76px;
+  line-height: 1.2;
+  top: 241px;
+  color: #fff;
+}
+
+.subtitle {
+  font-size: 46px;
+  line-height: 1.2;
+  color: #323232;
+  text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff,
+    -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}

@@ -1,0 +1,83 @@
+.container {
+  display: flex;
+  background: #141414;
+  margin-top: 20px;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-direction: column;
+}
+
+.hardContainer,
+.softContainer {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hard {
+  font-size: 76px;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.soft {
+  font-size: 76px;
+  line-height: 1.2;
+  color: #323232;
+  text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff,
+    -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+
+.hardList,
+.softList {
+  display: flex;
+  flex-wrap: wrap;
+  width: 720px;
+  gap: 12px;
+  justify-content: center;
+}
+
+.hardItem,
+.softItem {
+  box-sizing: border-box;
+  text-align: center;
+  color: #141414;
+  width: 227px;
+  height: 138px;
+  backdrop-filter: blur(10px);
+  background: linear-gradient(
+    108.46deg,
+    rgba(255, 255, 255, 0.04) 0%,
+    rgba(255, 255, 255, 0.01) 100%
+  );
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.hardItem:hover,
+.softItem:hover {
+  background-color: #323232;
+}
+
+.hardIcon {
+  width: 46px;
+  height: 46px;
+  fill: #fff;
+}
+
+.hardText,
+.softText {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.5;
+}

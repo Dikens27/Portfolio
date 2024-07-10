@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.title {
+  color: #141414;
+  font-size: 58px;
+  font-weight: 900;
+  line-height: 0.95;
+}
+
+/* ///////////////////////////////////// */
+
+.scrollbar {
+  /* width: 100%;
+  height: 100vh; */
+  display: flex;
+  align-items: center;
+}
+
+.scrollbarContainer {
+  width: 100%;
+  height: 400px;
+
+  overflow: hidden;
+}
+
+.cards {
+  display: flex;
+  gap: 50px;
+
+  padding: 0 50px;
+}
+
+.card {
+  height: 100%;
+  overflow: hidden;
+}
+
+.img {
+  object-fit: cover;
+  object-position: center;
+}

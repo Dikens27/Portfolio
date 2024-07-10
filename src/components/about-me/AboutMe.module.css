@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+  gap: 20px;
+}
+
+.title {
+  text-align: center;
+  color: #141414;
+  font-size: 58px;
+  font-weight: 900;
+  line-height: 0.95;
+}
+
+.aboutContainer {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  width: 600px;
+}
